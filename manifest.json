@@ -1,0 +1,18 @@
+{
+"name": "WebSocketSilver",
+"version": "0.1",
+"manifest_version": 2,
+"description": "工行白银价格实时查询",
+"permissions": [
+"http://silver.wicwin.com/",
+"notifications"
+],
+"background": { "page": "background.html" },
+"options_page": "popup.html",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Click here!"
+  }
+ 
+}
